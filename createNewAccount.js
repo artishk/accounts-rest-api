@@ -15,4 +15,5 @@ const newAccount = {
   Movements: [900, -200, 340, -300, -20, 50, 400, -460],
   balance: 6000,
 };
-addNewAccount(newAccount);
+
+module.exports = addNewAccount();

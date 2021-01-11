@@ -3,4 +3,5 @@ const updateAccountBalanceByID = (id, newBalance) => {
   const accountToUpdate = accountData.find((acc) => acc.userID === id);
   accountToUpdate.balance = newBalance;
 };
-updateAccountBalanceByID("js", 4500);
+
+module.exports = updateAccountBalanceByID();
