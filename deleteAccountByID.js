@@ -4,4 +4,4 @@ const deleteAccountByID = (userID) => {
   accountData.splice(index, 1);
 };
 
-module.exports = deleteAccountByID();
+module.exports = deleteAccountByID;

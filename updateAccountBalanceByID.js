@@ -4,4 +4,4 @@ const updateAccountBalanceByID = (id, newBalance) => {
   accountToUpdate.balance = newBalance;
 };
 
-module.exports = updateAccountBalanceByID();
+module.exports = updateAccountBalanceByID;

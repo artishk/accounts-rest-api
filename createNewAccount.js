@@ -16,4 +16,4 @@ const newAccount = {
   balance: 6000,
 };
 
-module.exports = addNewAccount();
+module.exports = addNewAccount;
