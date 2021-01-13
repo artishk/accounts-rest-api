@@ -8,6 +8,8 @@ const getAccountsWithBalanceGreaterThan = require("./getAccountsWithBalanceGreat
 
 const express = require("express");
 const app = express();
+const cors = require("cors");
+app.use(cors());
 app.get("/getAllAccounts", function (req, res) {
   res.send(getAllAccounts(accountData));
 });
